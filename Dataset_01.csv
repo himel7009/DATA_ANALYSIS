@@ -1,0 +1,501 @@
+ID,Name,Age,Gender,Country,Join_Date,Purchase_Amount,Product_Category,Rating
+1,Paul,56,Male,India,2022-09-22,12143,Furniture,1.6
+2,Walter,46,Female,Pakistan,2022-09-07,3540,Toys,3.3
+3,Charles,32,Female,Bangladesh,2024-01-22,5744,Electronics,3.4
+4,Shawn,25,Male,Pakistan,2024-02-27,10618,Books,2.7
+5,Joseph,38,Male,Pakistan,2024-06-19,14652,Electronics,3.9
+6,Michael,56,Male,India,2023-11-21,3014,Toys,4.7
+7,Matthew,36,Female,India,2023-10-09,13684,Furniture,4.7
+8,Valerie,40,Male,Pakistan,2022-10-03,12244,Books,2.8
+9,Joyce,28,Female,Pakistan,2023-05-04,14497,Furniture,1.5
+10,Kayla,28,Male,Nepal,2024-09-30,8887,Toys,4.9
+11,Steven,41,Female,Afghanistan,2022-06-05,14291,Books,4.4
+12,Joshua,53,Female,Afghanistan,2023-12-13,828,Furniture,1.5
+13,Jason,57,Male,Nepal,2023-06-20,17849,Books,4.7
+14,John,41,Male,Afghanistan,2024-10-06,798,Furniture,4.5
+15,Dominic,20,Female,India,2023-05-05,7286,Books,3.1
+16,Andrew,39,Male,Nepal,2024-02-16,14612,Electronics,3.4
+17,Donald,19,Female,India,2023-01-22,14023,Furniture,2.6
+18,Jasmine,41,Male,Bangladesh,2025-01-26,16879,Toys,1.2
+19,Crystal,47,Female,Afghanistan,2023-08-20,7500,Clothing,2.3
+20,Melanie,55,Male,Bangladesh,2023-01-26,4271,Clothing,4.2
+21,Janet,19,Female,India,2024-02-10,4460,Toys,1.0
+22,Larry,38,Male,Pakistan,2023-04-07,2602,Clothing,2.3
+23,Brandon,50,Female,Pakistan,2022-07-22,17201,Toys,2.6
+24,Jimmy,29,Female,Nepal,2023-05-20,19266,Furniture,3.1
+25,Tyler,39,Female,Sri Lanka,2022-06-02,5586,Electronics,4.7
+26,Roger,42,Female,Bangladesh,2024-07-20,8435,Furniture,2.4
+27,Mary,44,Male,Pakistan,2024-08-31,4591,Toys,2.4
+28,William,59,Male,Nepal,2022-11-01,11230,Electronics,4.0
+29,Erika,45,Female,Sri Lanka,2023-07-27,7751,Electronics,2.8
+30,Cynthia,33,Male,Bangladesh,2025-02-01,1267,Electronics,1.9
+31,Madison,32,Female,Afghanistan,2023-04-15,1162,Books,2.8
+32,Jose,20,Female,Sri Lanka,2024-11-06,18640,Furniture,1.6
+33,Michael,54,Female,Bangladesh,2023-08-03,11274,Clothing,1.7
+34,Carlos,24,Male,Sri Lanka,2025-04-08,4829,Grocery,3.0
+35,Carolyn,38,Female,Sri Lanka,2024-08-07,9448,Books,2.7
+36,Joseph,26,Male,Nepal,2024-07-12,5434,Grocery,4.7
+37,James,56,Male,Pakistan,2023-04-08,9024,Books,2.4
+38,Ryan,35,Male,India,2022-11-10,4430,Toys,3.3
+39,Jason,21,Male,India,2023-01-23,6901,Toys,3.5
+40,Martin,42,Female,Nepal,2023-10-08,4946,Clothing,1.1
+41,Robert,31,Female,India,2024-08-05,6831,Grocery,3.7
+42,Bruce,26,Male,Bangladesh,2024-06-16,15468,Electronics,1.7
+43,Joseph,43,Female,Pakistan,2025-01-23,17437,Electronics,4.8
+44,Michele,19,Female,Bangladesh,2024-08-01,2639,Books,1.6
+45,Ashley,37,Male,Afghanistan,2023-12-20,7156,Toys,2.7
+46,Jennifer,45,Female,Pakistan,2023-01-22,11616,Toys,1.3
+47,Phillip,24,Male,Sri Lanka,2024-03-28,11593,Furniture,5.0
+48,Kelsey,25,Female,Bangladesh,2022-08-09,1642,Clothing,3.0
+49,Nicholas,52,Female,Nepal,2023-01-06,14064,Furniture,3.4
+50,Tanya,31,Male,Afghanistan,2022-07-11,17675,Clothing,1.3
+51,Adam,34,Male,Pakistan,2023-12-23,6413,Clothing,4.0
+52,Jacob,53,Male,India,2024-03-11,19165,Clothing,1.8
+53,Melody,57,Female,Bangladesh,2024-01-24,18024,Electronics,4.6
+54,Alan,21,Male,Bangladesh,2024-03-20,13907,Books,1.8
+55,Leslie,19,Male,Nepal,2025-03-04,9680,Grocery,1.8
+56,Kimberly,23,Female,Bangladesh,2023-08-07,17849,Clothing,1.1
+57,Richard,59,Female,Pakistan,2023-11-27,8791,Clothing,2.9
+58,Steven,21,Male,India,2023-01-15,7594,Grocery,3.3
+59,Amy,46,Male,Nepal,2022-12-29,4412,Grocery,1.3
+60,Felicia,35,Female,Nepal,2022-08-11,1424,Clothing,4.1
+61,James,43,Male,Bangladesh,2023-03-23,3241,Electronics,2.8
+62,Jennifer,51,Female,Pakistan,2023-09-28,19970,Clothing,3.1
+63,Sara,27,Male,India,2022-12-31,1910,Clothing,2.8
+64,Russell,53,Male,Sri Lanka,2024-02-12,6688,Books,2.6
+65,Ryan,31,Female,Sri Lanka,2024-02-05,19407,Books,3.2
+66,Crystal,48,Male,Sri Lanka,2024-09-21,5401,Electronics,1.6
+67,Courtney,32,Male,Afghanistan,2023-11-29,15585,Clothing,1.7
+68,Brenda,25,Male,Bangladesh,2024-06-01,11814,Toys,4.4
+69,Sara,31,Male,Bangladesh,2022-08-11,4848,Clothing,4.8
+70,Peter,40,Female,Afghanistan,2024-08-03,9535,Grocery,2.5
+71,Jason,57,Male,Bangladesh,2023-08-27,3809,Grocery,2.1
+72,David,38,Male,Bangladesh,2023-07-26,13216,Electronics,3.6
+73,Steven,33,Female,Bangladesh,2022-05-31,9676,Toys,2.6
+74,David,35,Female,Pakistan,2023-02-22,10250,Toys,1.1
+75,Justin,41,Female,India,2024-04-22,19556,Toys,1.6
+76,Allison,43,Female,Bangladesh,2024-12-11,6630,Furniture,3.9
+77,Kiara,42,Male,Pakistan,2023-01-18,10288,Clothing,3.6
+78,Kelly,58,Female,Bangladesh,2023-03-26,14783,Clothing,1.1
+79,Shannon,46,Male,Bangladesh,2023-04-15,604,Furniture,1.9
+80,Melody,32,Female,Nepal,2022-11-12,1314,Books,1.9
+81,Kimberly,18,Female,Nepal,2024-05-04,1631,Toys,3.7
+82,Melanie,42,Male,Bangladesh,2025-04-20,923,Toys,1.1
+83,Mitchell,24,Male,Nepal,2022-05-20,17412,Books,1.4
+84,Alexa,26,Male,Sri Lanka,2024-05-23,5129,Books,4.2
+85,Katelyn,41,Male,Nepal,2025-04-22,13528,Books,1.7
+86,Vincent,18,Male,Nepal,2023-08-02,16617,Clothing,3.6
+87,William,25,Female,Nepal,2024-08-11,2205,Clothing,2.0
+88,Richard,41,Male,Bangladesh,2023-09-17,3727,Electronics,1.4
+89,Amber,28,Male,Nepal,2023-05-14,13072,Furniture,2.0
+90,Christopher,34,Female,India,2022-05-31,1952,Furniture,3.9
+91,Lisa,25,Male,Pakistan,2023-04-19,5010,Toys,4.4
+92,John,52,Male,Pakistan,2023-11-28,11103,Grocery,4.3
+93,Stephanie,52,Female,Sri Lanka,2025-04-10,13943,Grocery,2.6
+94,Molly,50,Female,India,2024-05-24,11804,Books,3.7
+95,Kimberly,22,Female,Nepal,2025-03-11,15861,Furniture,1.8
+96,Mason,59,Female,India,2024-06-05,6290,Grocery,2.2
+97,Rhonda,56,Male,Afghanistan,2022-06-07,17740,Furniture,4.6
+98,Melanie,58,Female,Afghanistan,2024-09-01,19860,Toys,1.1
+99,Karen,45,Male,Bangladesh,2024-01-15,5745,Clothing,1.3
+100,Lonnie,24,Male,Sri Lanka,2023-11-18,19970,Electronics,1.8
+101,Lindsey,26,Female,Afghanistan,2024-08-20,9688,Furniture,1.1
+102,Cody,25,Male,Bangladesh,2025-02-18,11929,Clothing,1.7
+103,Michael,29,Male,India,2024-02-19,8153,Furniture,3.3
+104,Kelly,51,Female,Afghanistan,2023-02-25,3430,Grocery,2.7
+105,Kayla,50,Female,Pakistan,2023-03-13,19187,Furniture,4.6
+106,Jonathan,40,Female,Nepal,2024-07-21,8762,Furniture,4.3
+107,Joseph,41,Female,Pakistan,2022-05-20,7214,Books,2.4
+108,Lonnie,54,Male,Bangladesh,2024-08-14,13423,Books,2.0
+109,Raymond,52,Male,Bangladesh,2023-08-05,1453,Clothing,2.5
+110,William,57,Female,Afghanistan,2025-04-21,11075,Grocery,3.4
+111,Terri,39,Male,Sri Lanka,2022-06-17,11123,Furniture,2.1
+112,Paul,44,Female,Bangladesh,2023-05-02,767,Toys,3.5
+113,Laura,52,Male,India,2023-03-11,9437,Electronics,2.6
+114,Colleen,18,Male,Pakistan,2024-10-17,13759,Electronics,3.2
+115,Cheryl,52,Female,Sri Lanka,2023-10-15,3819,Grocery,2.7
+116,Wendy,54,Male,India,2025-04-11,19229,Furniture,2.2
+117,Matthew,31,Male,Sri Lanka,2023-06-18,7583,Furniture,4.8
+118,Matthew,20,Male,Nepal,2025-05-03,639,Toys,4.1
+119,Ryan,18,Female,Afghanistan,2025-04-04,5064,Electronics,1.6
+120,Ricardo,22,Female,Bangladesh,2025-01-29,4935,Clothing,4.5
+121,Kimberly,43,Female,Nepal,2023-06-16,6142,Grocery,2.9
+122,Benjamin,31,Female,India,2022-06-08,14937,Furniture,4.6
+123,Mary,56,Male,Nepal,2023-08-10,7412,Grocery,4.2
+124,Samantha,44,Female,Afghanistan,2022-07-05,5420,Toys,2.7
+125,Kevin,26,Male,Nepal,2023-04-27,13316,Toys,1.1
+126,Jeffrey,32,Female,Sri Lanka,2024-01-18,2879,Clothing,2.1
+127,Willie,32,Female,Nepal,2023-09-11,17408,Clothing,3.2
+128,Janice,43,Female,Sri Lanka,2022-09-07,1681,Electronics,3.5
+129,Cynthia,59,Male,Bangladesh,2023-04-25,19808,Electronics,2.0
+130,Jessica,30,Male,Nepal,2023-03-24,12777,Books,1.6
+131,Natalie,49,Male,Sri Lanka,2024-11-11,5813,Furniture,4.3
+132,Rebecca,56,Male,India,2025-03-15,16739,Books,4.9
+133,Kristy,49,Male,India,2024-08-10,4904,Furniture,3.1
+134,Marc,21,Female,Sri Lanka,2022-08-05,18322,Books,1.7
+135,Thomas,47,Male,Pakistan,2025-05-18,10236,Electronics,2.1
+136,Harold,54,Male,Sri Lanka,2022-10-04,109,Electronics,1.1
+137,Ronald,40,Female,Afghanistan,2022-06-10,19355,Electronics,4.7
+138,Linda,56,Male,India,2023-02-15,5224,Electronics,1.5
+139,Janet,32,Male,Nepal,2023-01-24,1115,Furniture,3.3
+140,Kelli,46,Male,Afghanistan,2024-04-30,2293,Electronics,2.1
+141,Amanda,53,Female,Afghanistan,2022-11-02,8515,Books,3.2
+142,Sandra,30,Male,Afghanistan,2023-04-10,13650,Electronics,3.6
+143,Matthew,49,Female,Sri Lanka,2023-09-08,14612,Toys,4.3
+144,Rachel,24,Male,Pakistan,2023-06-22,4258,Toys,1.8
+145,Lindsay,39,Male,Sri Lanka,2022-07-15,7070,Books,1.0
+146,Jason,45,Female,Pakistan,2022-11-03,7038,Toys,1.5
+147,Eric,19,Male,India,2024-10-08,13872,Clothing,4.6
+148,Haley,59,Female,Bangladesh,2024-02-01,18117,Furniture,4.5
+149,Stephanie,23,Male,Nepal,2022-12-30,10444,Books,3.4
+150,Kathryn,45,Female,Sri Lanka,2023-07-08,7366,Clothing,3.4
+151,Veronica,45,Female,India,2023-10-18,8802,Books,3.7
+152,Kurt,37,Male,Nepal,2023-05-26,484,Electronics,1.7
+153,Matthew,47,Female,Pakistan,2024-09-22,504,Books,4.7
+154,Wayne,28,Female,Pakistan,2024-03-02,8275,Toys,2.7
+155,Peggy,45,Female,Afghanistan,2022-11-25,15258,Electronics,2.5
+156,Vickie,42,Male,Pakistan,2023-03-18,12863,Clothing,3.1
+157,Dawn,56,Male,Sri Lanka,2025-04-25,18484,Furniture,1.2
+158,David,50,Female,Afghanistan,2023-09-24,9960,Clothing,1.7
+159,Pamela,18,Male,Afghanistan,2025-03-11,6089,Electronics,4.0
+160,Maria,44,Female,India,2023-11-27,15206,Toys,1.3
+161,William,30,Male,Afghanistan,2024-07-21,17944,Grocery,3.4
+162,Desiree,58,Female,Sri Lanka,2023-08-03,3736,Grocery,2.0
+163,Teresa,20,Female,India,2024-11-28,11016,Books,2.6
+164,Taylor,56,Female,Sri Lanka,2024-12-26,4909,Grocery,2.2
+165,Amy,23,Female,Nepal,2024-11-22,13556,Toys,2.4
+166,David,25,Female,Afghanistan,2023-10-14,15544,Grocery,3.9
+167,Jake,44,Female,Afghanistan,2023-04-14,6097,Electronics,2.2
+168,Zachary,26,Male,Nepal,2023-06-20,2148,Electronics,3.3
+169,Patrick,54,Female,Afghanistan,2024-08-20,12438,Electronics,2.9
+170,Seth,50,Female,Afghanistan,2024-06-02,17200,Furniture,3.7
+171,Sergio,59,Male,Afghanistan,2023-01-16,4644,Electronics,4.7
+172,Janet,41,Male,Pakistan,2023-08-08,5076,Books,3.9
+173,Bonnie,32,Male,India,2023-05-29,12875,Electronics,1.9
+174,Kristen,49,Male,Afghanistan,2023-02-28,10115,Clothing,1.1
+175,Jeremy,49,Female,Sri Lanka,2023-04-08,3519,Clothing,2.0
+176,April,41,Male,Pakistan,2024-09-18,14530,Toys,3.4
+177,Mark,58,Male,Afghanistan,2023-12-02,7339,Furniture,1.2
+178,Ashley,29,Female,Sri Lanka,2022-07-28,14589,Furniture,3.0
+179,Vincent,56,Male,Pakistan,2022-09-25,16733,Toys,3.4
+180,Heather,19,Male,Pakistan,2022-11-26,10457,Toys,2.3
+181,Thomas,20,Female,Afghanistan,2024-03-14,17254,Grocery,4.1
+182,Melissa,54,Male,India,2023-07-20,4463,Clothing,1.4
+183,Daniel,34,Male,Bangladesh,2024-01-17,10276,Grocery,1.3
+184,Peter,19,Female,Nepal,2022-06-10,17561,Furniture,3.9
+185,Lisa,19,Male,Pakistan,2022-09-18,8527,Books,3.0
+186,Larry,45,Female,Afghanistan,2023-01-01,8680,Toys,3.8
+187,Allison,40,Female,Pakistan,2023-02-23,4958,Grocery,2.7
+188,Alicia,54,Female,Sri Lanka,2022-11-10,10140,Electronics,2.0
+189,Justin,49,Female,Afghanistan,2023-08-12,19298,Toys,4.3
+190,Tony,50,Female,Afghanistan,2023-04-06,19858,Toys,4.2
+191,Teresa,18,Female,Bangladesh,2022-08-03,15354,Clothing,3.8
+192,Adrian,36,Male,Sri Lanka,2023-12-31,11570,Toys,2.1
+193,Christopher,19,Female,Sri Lanka,2022-10-15,1352,Electronics,3.4
+194,Diana,43,Female,India,2022-11-29,7096,Toys,2.4
+195,Jose,49,Male,Afghanistan,2024-03-25,12273,Furniture,1.4
+196,Michael,23,Male,Afghanistan,2024-04-20,4773,Electronics,4.7
+197,Shawn,49,Female,Sri Lanka,2025-01-31,15881,Clothing,1.5
+198,Beverly,21,Female,Pakistan,2022-07-31,13151,Furniture,4.8
+199,Emily,28,Male,Afghanistan,2024-05-08,6981,Grocery,2.8
+200,Valerie,34,Female,Pakistan,2024-09-11,7049,Clothing,1.7
+201,Jessica,55,Male,Pakistan,2024-10-15,9621,Books,3.2
+202,Danielle,41,Female,Bangladesh,2023-02-12,8117,Grocery,4.5
+203,Tonya,22,Male,Nepal,2023-01-25,7041,Clothing,3.9
+204,Corey,51,Male,Bangladesh,2023-07-24,10309,Clothing,4.2
+205,Adam,23,Male,Bangladesh,2023-10-28,17815,Grocery,3.6
+206,Angela,39,Female,Bangladesh,2024-08-27,9650,Furniture,3.8
+207,John,28,Female,Afghanistan,2025-03-13,4737,Furniture,4.4
+208,Joshua,33,Female,India,2022-10-15,4954,Toys,2.0
+209,Jeremy,50,Female,India,2022-08-20,19661,Clothing,3.0
+210,Christine,26,Female,India,2022-10-24,10420,Electronics,1.9
+211,Michelle,23,Female,Nepal,2024-07-03,18664,Clothing,5.0
+212,Andrew,33,Female,Afghanistan,2022-11-30,4992,Toys,4.8
+213,Thomas,46,Female,Pakistan,2025-01-17,7143,Grocery,1.2
+214,Andrea,20,Male,Pakistan,2023-10-16,16621,Toys,3.8
+215,Carla,37,Male,Sri Lanka,2022-11-04,19956,Clothing,4.7
+216,David,53,Male,Nepal,2022-08-08,19316,Clothing,1.7
+217,Jennifer,36,Female,Sri Lanka,2022-07-09,4264,Toys,3.3
+218,Scott,43,Male,Nepal,2025-04-08,8041,Grocery,4.7
+219,Stephanie,20,Female,India,2022-12-19,14488,Electronics,1.1
+220,Courtney,36,Male,Sri Lanka,2025-04-21,5669,Toys,3.8
+221,Thomas,37,Male,Sri Lanka,2024-06-01,4400,Furniture,2.2
+222,Erik,49,Female,Sri Lanka,2023-03-19,6369,Furniture,4.7
+223,Shawn,24,Female,Bangladesh,2024-07-23,3918,Toys,4.9
+224,Amy,58,Female,Sri Lanka,2024-02-11,12115,Toys,4.8
+225,Brian,50,Female,Sri Lanka,2023-06-23,12334,Clothing,2.9
+226,Maria,57,Male,Sri Lanka,2024-06-04,18390,Toys,4.4
+227,Carol,56,Female,India,2024-06-10,6354,Books,4.4
+228,Sherry,35,Female,Nepal,2022-07-05,17244,Electronics,2.3
+229,Andrea,57,Male,Afghanistan,2025-01-25,7450,Furniture,4.3
+230,Kurt,18,Female,Pakistan,2023-09-29,15283,Books,1.1
+231,Laura,28,Male,Pakistan,2024-05-02,6338,Furniture,3.4
+232,Jenny,45,Male,Afghanistan,2025-04-19,6190,Toys,1.9
+233,Ian,42,Male,Bangladesh,2024-07-27,11737,Electronics,1.5
+234,Natalie,40,Female,Bangladesh,2023-02-11,12747,Electronics,1.3
+235,Megan,48,Male,India,2024-05-31,10011,Electronics,3.8
+236,Christopher,47,Female,Pakistan,2022-10-06,8572,Electronics,2.4
+237,Cynthia,59,Male,Bangladesh,2025-01-02,18371,Toys,3.9
+238,Nancy,52,Female,India,2024-06-08,3366,Grocery,1.3
+239,Heather,24,Female,Sri Lanka,2024-05-18,766,Furniture,2.3
+240,Kevin,33,Male,Afghanistan,2022-07-13,4288,Grocery,3.2
+241,Victoria,43,Female,Nepal,2024-01-23,17155,Clothing,4.2
+242,Nicholas,19,Female,Sri Lanka,2025-01-21,10261,Books,2.3
+243,Nathan,18,Female,Sri Lanka,2024-02-06,11414,Electronics,3.5
+244,Kathleen,29,Male,Pakistan,2023-10-28,12991,Clothing,4.5
+245,Daniel,22,Male,India,2025-04-30,4877,Clothing,3.5
+246,Robert,54,Female,India,2022-07-25,4000,Furniture,1.9
+247,Nicholas,49,Female,Nepal,2022-12-16,13816,Clothing,1.1
+248,Blake,26,Female,Afghanistan,2024-02-19,7081,Toys,4.5
+249,Victoria,58,Male,Nepal,2022-10-01,6476,Furniture,1.1
+250,Meghan,52,Female,Bangladesh,2023-08-12,17007,Books,4.5
+251,Maria,36,Female,Sri Lanka,2022-11-27,18877,Toys,3.1
+252,Jennifer,33,Female,Afghanistan,2023-03-08,19077,Books,4.8
+253,Karen,20,Male,Nepal,2023-05-28,10260,Clothing,4.2
+254,Adam,37,Female,India,2023-12-15,14224,Electronics,5.0
+255,Amanda,41,Female,Nepal,2024-04-09,16382,Books,2.4
+256,Jason,50,Female,Bangladesh,2023-09-06,10588,Electronics,4.1
+257,Robert,41,Female,Bangladesh,2022-05-21,5340,Furniture,2.6
+258,Nicole,28,Female,India,2023-10-24,10553,Electronics,2.9
+259,Rachel,25,Female,Pakistan,2024-10-02,10578,Furniture,3.5
+260,Linda,53,Female,Afghanistan,2023-07-07,12494,Grocery,4.5
+261,Ashley,55,Female,Afghanistan,2022-08-15,19362,Furniture,4.9
+262,Victor,57,Male,Nepal,2024-08-24,4532,Furniture,4.1
+263,Ellen,37,Female,Pakistan,2023-12-20,13668,Electronics,2.7
+264,Mark,52,Male,Pakistan,2022-11-28,14278,Books,2.7
+265,Veronica,42,Male,Nepal,2023-11-25,17760,Grocery,4.0
+266,John,52,Male,India,2025-03-16,402,Toys,2.0
+267,Joshua,42,Male,Sri Lanka,2022-11-24,17122,Books,1.4
+268,Jeremy,46,Female,Nepal,2024-12-20,155,Toys,2.4
+269,Kevin,35,Male,Sri Lanka,2023-01-30,13113,Clothing,2.1
+270,Angela,35,Male,India,2024-12-03,8817,Clothing,2.2
+271,Benjamin,19,Male,Bangladesh,2023-12-21,8250,Toys,1.9
+272,Maureen,52,Male,Sri Lanka,2023-10-17,2225,Grocery,1.2
+273,Carl,33,Male,Afghanistan,2025-02-20,11579,Clothing,1.1
+274,Melissa,58,Female,Nepal,2024-05-21,15845,Books,5.0
+275,Julian,53,Male,Pakistan,2023-09-04,16848,Furniture,2.7
+276,Tracy,50,Male,India,2023-07-15,6909,Furniture,2.5
+277,Charles,21,Male,Bangladesh,2024-08-22,4721,Furniture,3.7
+278,Mark,50,Male,India,2024-09-05,15134,Grocery,1.9
+279,Michael,31,Male,Nepal,2023-12-31,13723,Grocery,4.8
+280,Megan,38,Female,Pakistan,2024-02-21,5226,Grocery,4.1
+281,Vickie,37,Female,Nepal,2022-12-30,5222,Toys,1.4
+282,Angela,25,Female,India,2023-01-14,18130,Grocery,2.7
+283,Sarah,24,Female,Afghanistan,2025-01-21,17402,Clothing,4.5
+284,Christopher,20,Female,Pakistan,2024-03-20,19281,Furniture,4.8
+285,Richard,34,Male,Nepal,2022-05-22,5970,Toys,2.9
+286,Michelle,50,Female,Bangladesh,2022-11-10,1631,Toys,3.5
+287,Kirsten,29,Female,Afghanistan,2024-04-09,8272,Electronics,1.7
+288,Brandon,39,Male,India,2022-09-09,19829,Toys,5.0
+289,Dustin,39,Male,Nepal,2024-01-02,7773,Furniture,1.9
+290,Nicole,47,Female,Pakistan,2022-11-11,6982,Books,4.8
+291,Brittany,55,Male,Sri Lanka,2025-01-24,2006,Books,3.6
+292,Rebecca,55,Male,Nepal,2024-02-09,3186,Books,3.4
+293,Anne,25,Female,India,2022-07-14,13603,Furniture,3.1
+294,Katherine,44,Female,Sri Lanka,2024-02-20,8252,Clothing,1.9
+295,Kimberly,44,Female,Nepal,2023-07-20,5850,Books,1.7
+296,Misty,51,Female,Bangladesh,2023-04-13,12872,Furniture,1.9
+297,Madison,38,Male,Bangladesh,2024-07-26,10367,Books,1.7
+298,John,47,Male,India,2024-06-21,1162,Clothing,4.1
+299,Michael,50,Male,India,2022-06-25,18460,Books,2.4
+300,Bridget,45,Female,Pakistan,2023-02-12,17780,Electronics,1.2
+301,Sean,50,Female,Bangladesh,2023-11-01,6329,Clothing,4.9
+302,Denise,22,Male,Sri Lanka,2024-12-26,16609,Furniture,4.5
+303,Heather,36,Female,Sri Lanka,2023-10-29,15247,Furniture,4.7
+304,Cody,21,Male,India,2023-06-17,4732,Clothing,5.0
+305,Eric,52,Female,Sri Lanka,2024-02-01,6388,Furniture,1.7
+306,Rebecca,34,Male,Bangladesh,2022-07-20,3696,Clothing,2.6
+307,Janet,45,Female,Sri Lanka,2023-06-04,11575,Furniture,4.0
+308,Katherine,47,Male,Pakistan,2024-03-24,6268,Furniture,3.8
+309,Jonathan,46,Male,Pakistan,2024-10-14,9895,Grocery,1.6
+310,Tiffany,23,Female,Nepal,2023-12-26,7661,Furniture,4.3
+311,Sheri,52,Female,India,2023-02-06,8358,Clothing,1.9
+312,Anna,58,Female,Pakistan,2024-08-04,16716,Toys,1.9
+313,Samuel,54,Female,Nepal,2022-06-21,6471,Electronics,3.1
+314,Adam,41,Female,India,2024-04-28,14469,Clothing,3.4
+315,Hunter,46,Female,India,2025-01-29,13010,Clothing,3.3
+316,Christina,48,Male,Sri Lanka,2023-08-05,8043,Clothing,1.4
+317,Arthur,52,Female,Pakistan,2022-08-29,12299,Grocery,4.5
+318,Sherri,50,Female,Pakistan,2024-01-16,15828,Furniture,2.1
+319,Jonathan,38,Female,Bangladesh,2024-12-05,6838,Toys,1.5
+320,Michael,49,Female,Sri Lanka,2023-06-11,16013,Furniture,4.6
+321,Teresa,40,Female,Afghanistan,2025-03-17,2572,Electronics,4.8
+322,Joseph,50,Female,India,2025-04-09,19223,Books,4.4
+323,Christopher,20,Female,Pakistan,2023-11-26,15779,Electronics,4.2
+324,James,35,Female,India,2023-01-19,1861,Furniture,3.6
+325,Rachel,42,Male,Bangladesh,2024-11-03,10267,Clothing,3.2
+326,Sarah,59,Male,Sri Lanka,2023-10-01,10654,Grocery,1.3
+327,Devin,48,Male,India,2024-04-11,17360,Clothing,2.6
+328,Terri,20,Female,Pakistan,2023-12-28,14377,Electronics,2.5
+329,Harold,57,Male,Sri Lanka,2023-04-16,3912,Clothing,2.0
+330,Karen,41,Female,India,2024-03-09,17944,Grocery,3.9
+331,Yolanda,49,Female,Afghanistan,2023-01-25,18217,Books,3.0
+332,Nicole,39,Female,Sri Lanka,2023-06-27,1705,Electronics,1.3
+333,Pamela,40,Female,Bangladesh,2022-09-03,5722,Toys,1.9
+334,Andrea,19,Female,Sri Lanka,2022-08-04,6867,Clothing,3.7
+335,Vanessa,44,Male,Sri Lanka,2024-12-10,11713,Books,1.3
+336,Stacy,59,Male,Nepal,2025-03-23,10689,Electronics,4.4
+337,William,19,Female,Afghanistan,2024-12-20,14018,Toys,3.0
+338,Nicholas,43,Male,Bangladesh,2023-07-23,13146,Grocery,2.9
+339,Tina,34,Male,Nepal,2023-06-20,2690,Toys,3.4
+340,Lucas,57,Female,Sri Lanka,2025-01-16,17547,Furniture,4.3
+341,Samantha,50,Male,India,2025-02-10,4424,Toys,2.4
+342,Tyler,26,Female,Sri Lanka,2022-06-09,10887,Furniture,3.7
+343,Anthony,56,Female,Sri Lanka,2023-05-13,9211,Electronics,3.3
+344,Sarah,46,Male,Nepal,2023-07-12,5442,Toys,2.1
+345,Christian,59,Male,Sri Lanka,2025-03-08,16489,Grocery,4.5
+346,Martin,43,Female,Pakistan,2024-07-26,8759,Clothing,4.2
+347,Marcia,52,Female,Bangladesh,2022-12-08,14143,Books,3.6
+348,David,42,Female,Sri Lanka,2024-08-23,8937,Grocery,4.4
+349,Melissa,41,Male,Pakistan,2025-01-16,217,Furniture,4.5
+350,Cindy,30,Male,Pakistan,2023-04-01,14017,Furniture,3.8
+351,Marcus,24,Male,Sri Lanka,2025-02-22,19035,Toys,4.3
+352,Karen,53,Female,Afghanistan,2023-01-10,14409,Books,3.8
+353,Carrie,37,Male,Sri Lanka,2022-09-02,13334,Toys,3.7
+354,Steven,18,Male,India,2022-08-26,5660,Books,3.5
+355,Crystal,25,Female,Pakistan,2022-10-29,946,Clothing,4.0
+356,Brandon,33,Male,Sri Lanka,2024-06-15,11054,Furniture,1.6
+357,Jacob,31,Female,Nepal,2022-07-14,13803,Books,4.5
+358,Christopher,29,Female,Nepal,2022-08-08,15485,Books,4.5
+359,Pamela,40,Male,Afghanistan,2023-11-17,13846,Books,1.1
+360,Wayne,32,Female,Afghanistan,2025-04-18,6569,Grocery,4.3
+361,Andrew,45,Female,India,2024-03-14,9433,Electronics,1.5
+362,Joseph,51,Male,Bangladesh,2024-07-21,16708,Grocery,2.3
+363,William,19,Male,Nepal,2022-09-07,12919,Books,4.0
+364,Leon,49,Male,Pakistan,2024-01-04,4308,Clothing,1.6
+365,Ryan,40,Male,Pakistan,2025-02-06,6383,Furniture,4.3
+366,April,39,Male,Pakistan,2025-04-30,2148,Electronics,4.3
+367,Janet,42,Male,Pakistan,2023-08-30,6333,Furniture,3.0
+368,Michael,39,Male,Pakistan,2022-06-18,13041,Books,1.0
+369,Troy,39,Male,India,2024-04-22,12707,Toys,2.1
+370,Melissa,59,Female,Sri Lanka,2024-06-28,9865,Clothing,3.5
+371,Sara,23,Male,Nepal,2024-05-22,1928,Furniture,4.9
+372,Arthur,32,Male,Bangladesh,2023-05-07,2017,Electronics,3.5
+373,Michael,54,Female,Nepal,2024-07-25,7088,Grocery,2.0
+374,Matthew,50,Female,Afghanistan,2022-10-05,18510,Toys,3.5
+375,Joseph,25,Female,India,2022-08-08,14694,Grocery,3.2
+376,James,22,Female,Pakistan,2025-05-13,13077,Furniture,4.1
+377,John,56,Male,India,2023-08-06,109,Toys,1.4
+378,Matthew,21,Male,Nepal,2024-07-07,16744,Books,4.0
+379,Jason,23,Female,Nepal,2024-10-10,9965,Electronics,3.2
+380,Wesley,49,Female,Pakistan,2023-12-15,2319,Furniture,4.9
+381,William,47,Male,Bangladesh,2023-07-07,7141,Clothing,2.4
+382,Holly,52,Male,Sri Lanka,2025-02-05,18544,Furniture,3.5
+383,Shannon,57,Male,India,2025-04-28,5387,Grocery,4.7
+384,Kelsey,33,Male,Pakistan,2024-03-09,1719,Furniture,1.4
+385,Michelle,30,Female,Afghanistan,2024-06-15,8612,Books,4.7
+386,Michelle,59,Male,Bangladesh,2025-01-05,1442,Furniture,3.8
+387,Stephen,47,Female,India,2022-05-25,10668,Books,1.3
+388,Lisa,36,Female,Pakistan,2025-02-09,19316,Books,2.2
+389,Amy,34,Female,Pakistan,2024-09-13,19308,Furniture,3.8
+390,Rachel,36,Male,Sri Lanka,2024-09-17,18478,Toys,1.3
+391,Joshua,45,Male,India,2023-08-27,14331,Grocery,3.3
+392,James,43,Male,Sri Lanka,2024-08-30,3590,Toys,2.4
+393,Barbara,54,Female,Pakistan,2023-04-26,9410,Books,3.5
+394,Kyle,43,Female,Nepal,2025-03-28,8084,Electronics,1.2
+395,Chad,40,Male,Afghanistan,2025-05-04,18088,Books,4.5
+396,Michael,26,Male,Sri Lanka,2023-02-15,12319,Toys,4.9
+397,Robert,29,Male,Nepal,2023-07-02,335,Toys,4.9
+398,Michael,18,Male,Pakistan,2022-08-02,10261,Toys,4.0
+399,Amanda,18,Male,Sri Lanka,2023-12-29,2008,Toys,1.5
+400,John,51,Male,Bangladesh,2024-04-24,8667,Electronics,4.0
+401,Morgan,49,Male,Sri Lanka,2022-11-23,3630,Grocery,1.1
+402,Alexander,42,Male,Afghanistan,2022-11-04,5356,Toys,1.1
+403,Julie,57,Female,Nepal,2024-07-09,19119,Furniture,2.3
+404,David,18,Female,Bangladesh,2022-11-13,8262,Books,3.0
+405,Joseph,33,Female,Sri Lanka,2022-09-01,19044,Electronics,4.1
+406,Kenneth,56,Male,India,2024-11-21,5515,Electronics,3.7
+407,Rebecca,22,Female,Pakistan,2022-12-12,3491,Grocery,2.8
+408,Cynthia,39,Male,Nepal,2022-07-15,11257,Grocery,2.1
+409,Charles,46,Female,Afghanistan,2023-04-02,6051,Toys,5.0
+410,Fernando,20,Male,India,2024-12-24,8107,Electronics,2.7
+411,Tyler,29,Female,Nepal,2025-05-17,9164,Books,2.8
+412,Tammy,43,Male,Bangladesh,2024-06-27,15624,Clothing,1.7
+413,Curtis,33,Female,Bangladesh,2022-12-16,19382,Clothing,4.2
+414,Timothy,54,Male,Sri Lanka,2022-05-26,177,Toys,3.8
+415,Melissa,39,Male,Bangladesh,2024-03-15,7677,Toys,1.9
+416,Carol,46,Male,Pakistan,2024-04-27,17084,Clothing,1.3
+417,Kristina,31,Male,Pakistan,2024-06-20,14160,Clothing,3.7
+418,Erin,45,Female,Afghanistan,2024-06-06,17549,Clothing,3.6
+419,Stephen,22,Male,India,2024-11-25,18620,Furniture,2.1
+420,Jacob,47,Female,Bangladesh,2022-10-20,10635,Clothing,4.8
+421,Amy,22,Female,Pakistan,2023-12-22,9610,Furniture,1.6
+422,Mary,29,Female,Nepal,2023-08-07,7043,Furniture,2.7
+423,Jacob,33,Male,Pakistan,2024-02-18,12054,Clothing,4.8
+424,Calvin,43,Male,Sri Lanka,2025-01-05,7904,Grocery,2.7
+425,Charlene,43,Female,Afghanistan,2024-07-16,6665,Books,3.6
+426,Jacob,38,Male,India,2022-06-15,6084,Grocery,2.6
+427,Martha,56,Female,Nepal,2023-01-14,4770,Clothing,2.1
+428,Gerald,53,Female,Bangladesh,2024-06-07,18674,Clothing,4.9
+429,Cheryl,50,Male,Sri Lanka,2024-08-31,9284,Clothing,2.6
+430,Ashley,47,Female,Nepal,2024-02-28,19196,Furniture,4.6
+431,Shannon,54,Female,Afghanistan,2024-12-14,2292,Electronics,1.9
+432,Carolyn,40,Male,Pakistan,2025-04-26,1348,Electronics,1.9
+433,Richard,27,Male,Pakistan,2023-05-24,11346,Books,1.1
+434,Gary,22,Male,Afghanistan,2022-11-12,12890,Toys,3.6
+435,Frances,53,Female,Afghanistan,2022-10-11,18481,Books,2.5
+436,Sarah,51,Female,Pakistan,2022-10-18,3787,Books,4.5
+437,Ricky,48,Female,Bangladesh,2025-01-03,4118,Books,2.9
+438,Megan,27,Male,Pakistan,2024-05-28,11402,Books,4.9
+439,Alexandra,36,Female,Pakistan,2024-08-15,2070,Electronics,1.7
+440,Douglas,49,Male,Bangladesh,2024-04-28,8489,Electronics,4.5
+441,Stacey,18,Male,Nepal,2022-11-11,17686,Clothing,4.1
+442,Justin,22,Male,Bangladesh,2024-08-21,15474,Clothing,4.1
+443,Lee,21,Female,Pakistan,2025-01-29,5888,Electronics,4.4
+444,Andrew,33,Male,Afghanistan,2024-06-16,5508,Books,4.0
+445,Michael,41,Male,Bangladesh,2023-09-06,9546,Grocery,3.5
+446,David,33,Female,Bangladesh,2023-11-17,1022,Grocery,1.5
+447,Christopher,19,Female,Nepal,2023-03-31,519,Grocery,1.1
+448,Maria,45,Male,Afghanistan,2024-01-17,18688,Clothing,4.7
+449,David,49,Male,India,2024-12-14,10889,Furniture,3.5
+450,Joshua,44,Male,Afghanistan,2022-12-23,1220,Clothing,4.2
+451,Jesus,37,Male,Nepal,2022-07-07,11360,Clothing,2.9
+452,Erin,41,Male,Pakistan,2022-07-17,17434,Toys,1.5
+453,Carlos,29,Male,Nepal,2025-03-22,2436,Toys,1.5
+454,Scott,52,Male,Pakistan,2025-01-17,5473,Toys,3.7
+455,Christine,50,Male,Pakistan,2022-10-09,2343,Electronics,2.7
+456,Russell,50,Male,Nepal,2025-03-09,19129,Electronics,1.8
+457,Amanda,54,Male,India,2022-08-13,4712,Books,3.0
+458,Anthony,29,Female,Pakistan,2024-12-23,14046,Toys,1.3
+459,Amy,20,Female,Bangladesh,2023-06-15,18349,Furniture,3.3
+460,Daniel,18,Female,Afghanistan,2022-07-11,11204,Grocery,2.1
+461,Sean,50,Female,Sri Lanka,2024-03-04,13529,Toys,4.2
+462,Stephanie,57,Female,Nepal,2022-08-21,6471,Furniture,2.2
+463,Elaine,27,Male,India,2023-01-14,6459,Clothing,2.8
+464,Gary,46,Male,Pakistan,2024-12-12,7963,Furniture,1.0
+465,Daniel,30,Male,Bangladesh,2025-01-25,3328,Clothing,1.3
+466,Kevin,29,Male,Bangladesh,2024-03-30,14482,Toys,2.6
+467,Ryan,48,Female,Sri Lanka,2022-08-02,18855,Grocery,2.9
+468,Tracey,19,Female,Afghanistan,2023-08-18,2991,Toys,3.4
+469,Stephanie,52,Male,Afghanistan,2023-05-28,3856,Clothing,2.2
+470,Ruth,40,Female,India,2023-03-14,15870,Clothing,3.8
+471,Cassandra,34,Male,Bangladesh,2022-08-09,16578,Grocery,4.4
+472,Jason,43,Male,Bangladesh,2022-10-28,2774,Clothing,4.1
+473,Cameron,25,Female,Afghanistan,2025-05-17,6998,Clothing,1.2
+474,Catherine,46,Male,India,2022-11-24,10247,Toys,2.9
+475,Larry,43,Male,Bangladesh,2023-11-21,893,Grocery,1.4
+476,Corey,27,Female,India,2024-01-27,2216,Toys,2.0
+477,Veronica,43,Male,Afghanistan,2024-07-29,5879,Grocery,4.9
+478,Matthew,51,Female,Afghanistan,2024-02-28,12398,Electronics,1.6
+479,Lisa,58,Female,Bangladesh,2023-10-11,14253,Electronics,3.0
+480,Mary,24,Female,Afghanistan,2025-05-07,11211,Grocery,3.5
+481,James,21,Female,Afghanistan,2025-02-19,10889,Clothing,3.8
+482,Rebecca,28,Male,Bangladesh,2024-10-21,11497,Books,3.2
+483,Carrie,46,Male,Pakistan,2023-11-22,13099,Clothing,1.0
+484,Krista,53,Female,Bangladesh,2024-02-29,914,Clothing,2.3
+485,Nicole,42,Female,Sri Lanka,2024-07-22,16829,Electronics,3.1
+486,Christine,38,Female,Bangladesh,2022-08-06,10641,Clothing,1.4
+487,Angela,53,Female,India,2024-06-04,2543,Toys,2.4
+488,Jennifer,27,Male,Nepal,2025-05-17,10557,Grocery,1.1
+489,Nicholas,54,Female,Sri Lanka,2022-11-06,10480,Furniture,1.3
+490,Jason,26,Female,Pakistan,2025-03-19,7883,Grocery,2.6
+491,David,41,Female,Pakistan,2023-07-10,11573,Books,1.5
+492,Daniel,52,Male,Bangladesh,2022-10-15,17468,Toys,3.3
+493,Amy,52,Female,Sri Lanka,2023-08-27,15428,Electronics,3.8
+494,Ashley,53,Male,Sri Lanka,2022-11-27,927,Toys,4.2
+495,Edwin,35,Male,Nepal,2022-12-22,7247,Grocery,1.8
+496,Spencer,56,Female,Bangladesh,2023-05-14,4551,Electronics,1.7
+497,Austin,49,Female,Sri Lanka,2023-07-30,15443,Toys,1.4
+498,Alicia,41,Male,Afghanistan,2024-05-11,13735,Books,3.5
+499,Amy,40,Male,Bangladesh,2025-03-14,6059,Books,3.8
+500,Danielle,49,Female,Nepal,2023-05-17,226,Clothing,1.1

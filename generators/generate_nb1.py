@@ -11,7 +11,7 @@ cells = []
 
 # Title & Framing
 cells.append(nbf.v4.new_markdown_cell("""# 📊 Retail Commercial Analytics: Customer Behavior & Demographic Deep Dive
-**Author:** Senior Data Analyst  
+**Author:** Data Analyst  
 **Dataset:** `Dataset_01.csv` (Customer Demographics, Transactions, and Satisfaction)  
 **Target Stakeholders:** Chief Marketing Officer (CMO), Head of Merchandising, Regional Growth Leads  
 
@@ -55,7 +55,7 @@ print("✓ Analytical environment initialized successfully.")"""))
 cells.append(nbf.v4.new_markdown_cell("""---
 ## 🔍 Part 1: Initial Data Audit & Health Check
 
-Before performing any commercial analysis, a senior analyst conducts a rigorous data integrity audit to evaluate schema consistency, nullness, duplicate records, and the foundational statistical properties of the dataset.
+Before performing any commercial analysis, a rigorous data integrity audit is conducted to evaluate schema consistency, nullness, duplicate records, and the foundational statistical properties of the dataset.
 """))
 
 # Code: Part 1 Ingestion and Dimensions (Q1, Q2, Q3)
@@ -114,7 +114,7 @@ print("\\nPlatform Gender Proportion:")
 display(gender_dist.round(2))"""))
 
 # Markdown: Analyst Notes for Part 1
-cells.append(nbf.v4.new_markdown_cell("""> **Senior Analyst Takeaway (Data Hygiene & Distribution):**  
+cells.append(nbf.v4.new_markdown_cell("""> **Analyst Key Takeaway (Data Hygiene & Distribution):**  
 > 1. **Complete Integrity**: The dataset has exactly 500 rows and 9 columns with zero null entries and unique customer identifiers (`ID`), making it an exceptionally clean baseline.
 > 2. **Balanced Geographic Footprint**: The business maintains an evenly distributed South Asian footprint, ranging from 78 customers (India & Afghanistan, 15.6%) to 92 customers (Pakistan, 18.4%). No single country dominates the sample.
 > 3. **Gender Parity**: The customer base is split almost exactly 50/50 (Female: 50.4%, Male: 49.6%), indicating unisex platform appeal.
@@ -201,7 +201,7 @@ print(f"Highest Customer Satisfaction: {highest_sat_country} ({country_satisfact
 print(f"Lowest Customer Satisfaction:  {lowest_sat_country} ({country_satisfaction.loc[lowest_sat_country, 'Mean_Rating']:.2f}/5.00)")"""))
 
 # Markdown: Analyst Notes for Part 2
-cells.append(nbf.v4.new_markdown_cell("""> **Senior Analyst Takeaway (Customer Demographics):**  
+cells.append(nbf.v4.new_markdown_cell("""> **Analyst Key Takeaway (Customer Demographics):**  
 > 1. **Core Revenue Engine**: **Middle-Aged customers (36–50)** generate the largest portion of total revenue ($1.91M, ~38.6%), driven primarily by population weight (193 customers). However, **Young Adults (25–35)** exhibit strong average ticket sizes ($10,135), confirming high disposable income.
 > 2. **Gender Spend Dynamics**: Gender spending is nuanced across territories. In some countries (e.g. Bangladesh and India), male customers exhibit higher average spend tickets, whereas in Sri Lanka and Afghanistan, female spending leads. Across the entire platform, the aggregate difference is minimal (~$150), suggesting marketing campaigns should be tailored by country rather than broad gender segregation.
 > 3. **Whale Concentration**: The top 10 customers have individual order values between $19,252 and $19,970 spanning Electronics, Toys, and Clothing. Notably, 3 of the top 10 whales awarded ratings ≤ 2.0, pointing to VIP retention risk.
@@ -276,7 +276,7 @@ print("\\nDisaffected Whale Breakdown by Product Category:")
 display(dissatisfied_by_cat)"""))
 
 # Markdown: Analyst Notes for Part 3
-cells.append(nbf.v4.new_markdown_cell("""> **Senior Analyst Takeaway (Category Dynamics):**  
+cells.append(nbf.v4.new_markdown_cell("""> **Analyst Key Takeaway (Category Dynamics):**  
 > 1. **Revenue Leaders**: **Clothing** ($994k) and **Toys** ($944k) represent the primary revenue engines, capturing over 39% of total business revenue combined.
 > 2. **Average Ticket Stability**: Average order values across all 6 categories hover tightly between $9,400 (Grocery) and $10,358 (Clothing), suggesting uniform basket sizing.
 > 3. **Critical Quality Alarm in Furniture & Toys**: The high-spend dissatisfaction audit reveals that multiple customers spending above the 75th percentile ($14,472+) gave ratings below 2.0, concentrated in Furniture and Toys. These are high-LTV accounts at acute risk of churn due to post-purchase dissatisfaction.
@@ -347,7 +347,7 @@ else:
     print("✗ No statistically significant difference in spending between weekend and weekday signups (p >= 0.05).")"""))
 
 # Markdown: Analyst Notes for Part 4
-cells.append(nbf.v4.new_markdown_cell("""> **Senior Analyst Takeaway (Temporal Dynamics):**  
+cells.append(nbf.v4.new_markdown_cell("""> **Analyst Key Takeaway (Temporal Dynamics):**  
 > 1. **Growth Pattern**: Registrations span 2021 to 2024 with a steady influx of ~100–140 customers per year.
 > 2. **Registration Timing Neutrality**: Customers who register on weekends spend on average $9,862 compared to $9,936 for weekday signups. Welch's t-test confirms no statistically significant difference ($p = 0.89$), proving that customer lifetime value is invariant to registration day of the week. Marketing spend can be allocated evenly across the week rather than disproportionately weighting weekend campaigns.
 """))
@@ -424,7 +424,7 @@ print("\\nCustomer Spending Tier Matrix:")
 display(tier_summary.round(2))"""))
 
 # Markdown: Analyst Notes for Part 5
-cells.append(nbf.v4.new_markdown_cell("""> **Senior Analyst Takeaway (Statistical Health & Tiers):**  
+cells.append(nbf.v4.new_markdown_cell("""> **Analyst Key Takeaway (Statistical Health & Tiers):**  
 > 1. **Distribution Character**: The skewness coefficient is $+0.046$, which confirms an almost ideal uniform-symmetric spread with virtually zero skew.
 > 2. **Absence of Corrupt Outliers**: Under Tukey's rule ($1.5 \\times \\text{IQR}$), 0 records fall beyond the fences. The lowest recorded spend is $109 and the highest is $19,970, indicating clean synthetic/real operational boundaries without data entry corruption.
 > 3. **Strategic Tiers**:
@@ -540,7 +540,7 @@ plt.show()"""))
 
 # Markdown: Executive Recommendations & Roadmap
 cells.append(nbf.v4.new_markdown_cell("""---
-## 🎯 Senior Analyst Strategic Recommendations & Action Plan
+## 🎯 Strategic Recommendations & Action Plan
 
 Based on the quantitative findings of this customer and demographic analysis, here are **4 prioritized strategic recommendations** for the executive leadership team:
 

@@ -10,7 +10,7 @@ cells = []
 
 # Title & Framing
 cells.append(nbf.v4.new_markdown_cell("""# 🌐 Global Commercial Performance & Profitability Audit
-**Author:** Senior Commercial Data Analyst  
+**Author:** Commercial Data Analyst  
 **Dataset:** `Dataset_03.csv` (Global Superstore 51,290 Transactions Across 147 Countries)  
 **Target Stakeholders:** Chief Financial Officer (CFO), Chief Operating Officer (COO), VP of Global Sales  
 
@@ -21,7 +21,7 @@ Global Superstore is an international enterprise fulfilling B2B and B2C orders a
 
 However, executive leadership has raised serious alarms: **net profits are severely lagging top-line expansion**, and operational margins are compressing. 
 
-As the Lead Commercial Data Analyst, this audit investigates:
+In this commercial data analysis, this audit investigates:
 1. **Financial Leakages**: Why are **24.5% of all fulfilled orders losing money**, causing **$920,357 in cumulative losses**?
 2. **The "Discount Cliff"**: At what exact promotional threshold does discounting cannibalize transaction margin?
 3. **Loss-Making Geographies & Categories**: Which specific territories (e.g., Turkey, Nigeria, Netherlands) and sub-categories (e.g., Tables: -$64k) are draining corporate profits?
@@ -99,7 +99,7 @@ print("Temporal Dimensions Extracted:")
 display(df[['order_id', 'order_date', 'ship_date', 'shipping_duration_days', 'order_year_month', 'sales', 'profit']].head(3))"""))
 
 # Markdown: Analyst Notes for Part 1
-cells.append(nbf.v4.new_markdown_cell("""> **Senior Analyst Takeaway (Data Rectification):**  
+cells.append(nbf.v4.new_markdown_cell("""> **Analyst Key Takeaway (Data Rectification):**  
 > 1. **Formatting Trap Discovered**: The raw `sales` field was stored as an `object` string containing comma digit separators, preventing arithmetic operations.
 > 2. **Date Ambiguity Resolved**: Parsing dates with standard `format='mixed'` naively creates **9,687 impossible negative lead times** (up to -322 days!) due to day-month inversion. Applying `dayfirst=True` completely resolved this, proving all orders are dispatched between 0 and 7 days (mean: 3.97 days).
 """))
@@ -157,7 +157,7 @@ print("\nTop 10 Single Most Disastrous Loss Transactions:")
 display(top_10_disasters)"""))
 
 # Markdown: Analyst Notes for Part 2
-cells.append(nbf.v4.new_markdown_cell("""> **Senior Analyst Takeaway (Financial Health & Losses):**  
+cells.append(nbf.v4.new_markdown_cell("""> **Analyst Key Takeaway (Financial Health & Losses):**  
 > 1. **Massive Profit Drag**: While GMV reached **$12.64M**, net profit is only **$1.47M (11.62% margin)**. Almost **1 out of every 4 orders (24.46%)** loses money!
 > 2. **The $920k Leakage**: Unprofitable orders have drained **-$920,357.39** in cumulative capital. Eliminating these structural loss drivers would expand total company profit by **+62.6%** to $2.39M!
 > 3. **Disaster Orders Root Cause**: Examining the top 10 catastrophic transactions reveals individual order losses ranging from -$3,059 to -$6,600. Every single disaster order featured heavy discounting (between **40% and 70%**), primarily on high-ticket Technology (Copiers, Machines) and Furniture (Tables) in countries like the US, Turkey, and Honduras.
@@ -233,7 +233,7 @@ print("\nRegional Loss Centers (Unprofitable Regions):")
 display(region_summary[region_summary['Total_Profit'] < 0].round(2))"""))
 
 # Markdown: Analyst Notes for Part 3
-cells.append(nbf.v4.new_markdown_cell("""> **Senior Analyst Takeaway (Geographic Breakdown):**  
+cells.append(nbf.v4.new_markdown_cell("""> **Analyst Key Takeaway (Geographic Breakdown):**  
 > 1. **APAC is the Core Profit Engine**: APAC delivers **$436.0k in profit (29.7% of total)** with a healthy 12.18% margin, followed by the US ($286.4k) and EU ($248.5k).
 > 2. **EMEA and Africa Margin Compression**: EMEA ($43.9k profit, 5.44% margin) and Africa ($88.9k profit, 11.35% margin) struggle under operational overhead and freight inefficiencies.
 > 3. **The Revenue vs. Profit Mirage**: Australia is the #2 highest revenue country ($925k GMV), yet it is **NOT in the top 5 most profitable countries** due to aggressive discounting. In contrast, **China and India** generate substantially higher net profits ($150.7k and $129.1k respectively) on lower sales volume due to superior pricing discipline.
@@ -310,7 +310,7 @@ print("\nCross-Tabulated Net Profit by Category & Customer Segment:")
 display(cat_seg_profit.applymap(lambda x: f"${x:,.0f}"))"""))
 
 # Markdown: Analyst Notes for Part 4
-cells.append(nbf.v4.new_markdown_cell("""> **Senior Analyst Takeaway (Portfolio Performance):**  
+cells.append(nbf.v4.new_markdown_cell("""> **Analyst Key Takeaway (Portfolio Performance):**  
 > 1. **Technology Leads in Profits**: Technology generates **$663.8k in profit (14.0% margin)** on $4.74M in sales, followed by Office Supplies ($518.5k, 13.7% margin).
 > 2. **Furniture Margin Erosion**: Furniture achieves $4.11M in sales but generates only $285.2k in profit (a meager **6.94% margin**).
 > 3. **The Tables Value Trap**: **Tables** is a multi-million-dollar sales line ($758k GMV) that produces a **-$64,083 cumulative loss**! Driven by high shipping bulk and excessive discounting (average discount: 28.9%), every table sold destroys shareholder value.
@@ -382,7 +382,7 @@ print(f"\nOrders Where Freight Cost > 40% of Item Sales Price: {len(heavy_freigh
 print(f"Cumulative Profit on Heavy Freight Orders: ${heavy_freight_orders['profit'].sum():,.2f}")"""))
 
 # Markdown: Analyst Notes for Part 5
-cells.append(nbf.v4.new_markdown_cell("""> **Senior Analyst Takeaway (Discount & Operations):**  
+cells.append(nbf.v4.new_markdown_cell("""> **Analyst Key Takeaway (Discount & Operations):**  
 > 1. **The 20% Discount Cliff**: 
 >    - Orders with **0% discount** generate an average profit of **+$61.04** (26.5% margin).
 >    - Orders with **1–20% discount** generate an average profit of **+$54.82** (15.5% margin).
@@ -492,7 +492,7 @@ plt.show()"""))
 
 # Markdown: Executive Recommendations & Roadmap
 cells.append(nbf.v4.new_markdown_cell("""---
-## 🎯 Senior Analyst Strategic Recommendations & Action Plan
+## 🎯 Strategic Recommendations & Action Plan
 
 ```mermaid
 flowchart TD

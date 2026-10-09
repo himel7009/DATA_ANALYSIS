@@ -10,7 +10,7 @@ cells = []
 
 # Title & Framing
 cells.append(nbf.v4.new_markdown_cell("""# 👑 Customer Lifecycle, RFM Cohorts & Executive KPI Analytics
-**Author:** Lead Strategic Business Analyst  
+**Author:** Data Analyst  
 **Dataset:** `Dataset_04.csv` (Global Superstore Multi-Year Transaction History)  
 **Target Stakeholders:** Chief Executive Officer (CEO), Chief Operating Officer (COO), Chief Marketing Officer (CMO)  
 
@@ -92,7 +92,7 @@ assert corrupt_dates == 0, "Integrity Alert: Corrupt dates present."
 print("✓ Pipeline certified: 100% valid data types and clean operational metrics.")"""))
 
 # Markdown: Analyst Notes for Part 1
-cells.append(nbf.v4.new_markdown_cell("""> **Senior Analyst Takeaway (Data Baseline):**  
+cells.append(nbf.v4.new_markdown_cell("""> **Analyst Key Takeaway (Data Baseline):**  
 > 1. **Robust Granularity**: The dataset captures 51,290 line items across 25,035 unique order baskets from exactly 795 institutional/consumer clients over 4 full years (2011-01-01 to 2014-12-31).
 > 2. **Operational Fidelity**: Fulfillment lead times strictly span 0 to 7 days, providing an untainted baseline for customer recency and carrier SLA auditing.
 """))
@@ -167,7 +167,7 @@ champions_client_share = segment_audit.loc[segment_audit['Segment'] == 'Champion
 print(f"🎯 Champions Concentration: {champions_client_share:.1f}% of clients drive {champions_rev_share:.1f}% of total revenue!")"""))
 
 # Markdown: Analyst Notes for Part 2
-cells.append(nbf.v4.new_markdown_cell("""> **Senior Analyst Takeaway (RFM Segmentation):**  
+cells.append(nbf.v4.new_markdown_cell("""> **Analyst Key Takeaway (RFM Segmentation):**  
 > 1. **Client Value Concentration**: **Champions** represent **25.2% of the customer base (200 clients)** but generate **$4.42M (35.0% of total revenue)**, averaging $22,112 in lifetime spend with average recency of just 10.6 days.
 > 2. **Acute At-Risk Exposure**: **205 clients (25.8% of the customer base)** are classified as **At-Risk**. These were historically heavy buyers (averaging $18,179 in spend and 33.6 orders) who have not transacted in an average of 46 days. They represent **$3.73M (29.5%) of business revenue**. Re-engaging this specific cluster before they churn permanently is the CMO's #1 retention priority.
 """))
@@ -214,7 +214,7 @@ print(f"Strongest 12-Month Cohort:          Cohort {strongest_cohort_12m} ({stro
 print(f"Key Insight: Customer repurchase rates rebound sharply in Q4 of each subsequent year, reflecting institutional corporate replenishment cycles.")"""))
 
 # Markdown: Analyst Notes for Part 3
-cells.append(nbf.v4.new_markdown_cell("""> **Senior Analyst Takeaway (Cohort Dynamics):**  
+cells.append(nbf.v4.new_markdown_cell("""> **Analyst Key Takeaway (Cohort Dynamics):**  
 > 1. **Baseline Repurchase Curve**: After an initial month-1 drop-off (retention ~20–30%), customer repurchase rates oscillate between 25% and 55% over a 4-year lifecycle.
 > 2. **Strong 12-Month Rebound**: The average 12-month retention rate across cohorts is **32.4%**, indicating durable repeat purchasing for an enterprise B2B supplier.
 > 3. **Seasonal Wave Effects**: In the cohort heatmap, diagonal stripes of elevated activity emerge every 10–12 months, proving that corporate customers reorder on predictable annual procurement cycles.
@@ -294,7 +294,7 @@ print("\nFreight Cost Burden per Unit by Category:")
 display(cat_freight.round(2))"""))
 
 # Markdown: Analyst Notes for Part 4
-cells.append(nbf.v4.new_markdown_cell("""> **Senior Analyst Takeaway (Supply Chain Logistics):**  
+cells.append(nbf.v4.new_markdown_cell("""> **Analyst Key Takeaway (Supply Chain Logistics):**  
 > 1. **Critical Priority Inversion**: Critical orders average **3.77 days** to dispatch, while Low priority orders average **3.99 days**—a negligible difference of just ~5 hours! Operations is failing to materially expedite high-priority orders.
 > 2. **Severe Premium SLA Failure (First Class)**: The global SLA breach rate is **16.1% (8,271 delayed orders)**. Alarmingly, **First Class shipping exhibits a catastrophic 39.0% SLA breach rate** (2,925 orders took 3+ days instead of the promised 2 days). Customers paying premium express fees are failing to receive express dispatch, generating major churn risk.
 > 3. **Geographic Uniformity**: Breach rates across regions are uniformly high (EU: 17.2%, US: 17.0%, LATAM: 16.7%), proving this is a systemic warehouse dispatch issue rather than isolated regional carrier delay.
@@ -352,7 +352,7 @@ print(f"Platform Customer Repeat Rate:        {repeat_rate:.2f}%")
 print(f"Average Orders per Client:             {cust_order_counts.mean():.1f} orders (Min: {cust_order_counts.min()}, Max: {cust_order_counts.max()})")"""))
 
 # Markdown: Analyst Notes for Part 5
-cells.append(nbf.v4.new_markdown_cell("""> **Senior Analyst Takeaway (Basket Affinity & Bundling):**  
+cells.append(nbf.v4.new_markdown_cell("""> **Analyst Key Takeaway (Basket Affinity & Bundling):**  
 > 1. **High Multi-Line Penetration**: Over **51.0% of orders** are multi-item baskets, representing a substantial cross-selling surface area.
 > 2. **Top Co-Purchase Affinities**:
 >    - **Binders + Storage** (944 orders)
@@ -499,7 +499,7 @@ plt.show()"""))
 
 # Markdown: Executive Recommendations & Roadmap
 cells.append(nbf.v4.new_markdown_cell("""---
-## 🎯 Senior Analyst Strategic Recommendations & Action Plan
+## 🎯 Strategic Recommendations & Action Plan
 
 ```mermaid
 flowchart TD

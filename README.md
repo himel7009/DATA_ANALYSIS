@@ -1,4 +1,4 @@
-# 📊 Senior Data Analyst Portfolio: Commercial Analytics & Decision Science
+# 📊 Data Analyst Portfolio: Practical Data Analytics & Insights
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg?logo=python&logoColor=white)](https://python.org)
 [![Pandas](https://img.shields.io/badge/Pandas-2.0%2B-150458.svg?logo=pandas&logoColor=white)](https://pandas.pydata.org)
@@ -8,7 +8,7 @@
 
 > *"Raw numbers don't make business decisions; structured insights, root-cause diagnostics, and strategic recommendations do."*
 
-This repository houses **4 comprehensive, publication-grade analytical case studies** designed to demonstrate the end-to-end capabilities of a **Senior Data Analyst / Analytics Engineer**. Spanning retail consumer behavior, production data engineering pipelines, multinational profitability audits, and executive C-suite KPI dashboards, each notebook models how an experienced practitioner approaches real-world business challenges.
+This repository houses **4 comprehensive, publication-grade analytical case studies** designed to demonstrate practical, end-to-end capabilities in **Data Analysis & Business Intelligence**. Spanning retail consumer behavior, production data engineering pipelines, multinational profitability audits, and executive C-suite KPI dashboards, each notebook models how an experienced practitioner approaches real-world business challenges.
 
 ---
 

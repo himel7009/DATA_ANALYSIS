@@ -10,7 +10,7 @@ cells = []
 
 # Title & Framing
 cells.append(nbf.v4.new_markdown_cell("""# 🛠️ Production Data Hygiene & Feature Engineering Pipeline
-**Author:** Senior Data Analyst & ML Engineer  
+**Author:** Data Analyst  
 **Dataset:** `Dataset_02.csv` (Multi-System Anonymized Telemetry & Feature Store)  
 **Target Stakeholders:** Lead Data Scientist, MLOps Team, VP of Data & Analytics  
 
@@ -127,7 +127,7 @@ plt.tight_layout()
 plt.show()"""))
 
 # Markdown: Analyst Notes for Part 1
-cells.append(nbf.v4.new_markdown_cell("""> **Senior Analyst Takeaway (Hygiene Audit):**  
+cells.append(nbf.v4.new_markdown_cell("""> **Analyst Key Takeaway (Hygiene Audit):**  
 > 1. **Data Loss Risk**: Exactly **64 rows (1.28%)** out of 5,000 are completely non-null. Complete-case deletion (`df.dropna()`) would result in a **98.72% sample loss**, introducing severe survivorship bias and rendering any downstream model useless.
 > 2. **Missingness Spectrum**: Missingness is concentrated in 9 features: `Feature10` (56.7%), `Feature1` (54.1%), `Feature5` (40.6%), `Feature16` (40.1%), `Feature6` (39.7%), `Feature4` (37.4%), `Feature20` (34.7%), `Feature19` (5.9%), and `Feature8` (2.0%).
 > 3. **Missingness Mechanism**: The missing data shows a Missing at Random (MAR) structure where continuous telemetry drops occur independently across sensors, while categorical missingness in `Feature4` and `Feature20` indicates optional user fields.
@@ -201,7 +201,7 @@ assert remaining_nulls == 0, "Error: Null values remain in the cleaned dataset!"
 print("✓ Validation Confirmed: All 20 features successfully sanitized with 0 null values remaining.")"""))
 
 # Markdown: Analyst Notes for Part 2
-cells.append(nbf.v4.new_markdown_cell("""> **Senior Analyst Takeaway (Imputation Strategy):**  
+cells.append(nbf.v4.new_markdown_cell("""> **Analyst Key Takeaway (Imputation Strategy):**  
 > 1. **Skew-Aware Imputation**: `Feature5` (skew 2.60) and `Feature8` (skew 1.34) received median imputation to prevent outlier inflation. In contrast, `Feature6`, `Feature10`, and `Feature16` are symmetric and received mean imputation.
 > 2. **Context-Preserving Categoricals**: Rather than blindly imputing 1,868 rows in `Feature4` and 1,733 rows in `Feature20` with the mode (which would artificially over-weight the modal class), we encoded missingness as a dedicated category `'Missing'`. This preserves potential structural meaning (e.g., user opted out of recording).
 > 3. **Hierarchical Precision**: `Feature1` was imputed conditionally via group medians by `Feature14` category, preserving inter-category relationships.
@@ -299,7 +299,7 @@ plt.tight_layout()
 plt.show()"""))
 
 # Markdown: Analyst Notes for Part 3
-cells.append(nbf.v4.new_markdown_cell("""> **Senior Analyst Takeaway (Outlier Treatment):**  
+cells.append(nbf.v4.new_markdown_cell("""> **Analyst Key Takeaway (Outlier Treatment):**  
 > 1. **Heavy Tails Quantified**: `Feature5` (340 IQR outliers), `Feature7` (282 IQR outliers), and `Feature8` (174 IQR outliers) exhibited substantial outlier volume beyond 1.5x IQR.
 > 2. **Capping vs. Dropping**: In predictive workflows, dropping 340 rows from a 5,000-row dataset would cause an immediate 6.8% data loss and bias the model toward conservative predictions. By winsorizing at the 1st and 99th percentiles via `np.clip()`, we neutralized severe leverage points while preserving 100% of the sample records.
 """))
@@ -363,7 +363,7 @@ assert abs(std_variance - 1.0) < 1e-4, "Error: Variance is not unit!"
 print("✓ Mathematical Rigor Verified: Features accurately scaled to standard normal properties.")"""))
 
 # Markdown: Analyst Notes for Part 4
-cells.append(nbf.v4.new_markdown_cell("""> **Senior Analyst Takeaway (Transformations & Scaling):**  
+cells.append(nbf.v4.new_markdown_cell("""> **Analyst Key Takeaway (Transformations & Scaling):**  
 > 1. **Skew Reduction**: Applying log transformations reduced the skewness of `Feature5` dramatically from $+2.60$ down to $+0.32$, bringing it within acceptable boundaries for linear and gradient algorithms.
 > 2. **Standardization Rigor**: The scratch implementation of Z-score normalization achieved an exact empirical mean of $0.000$ and variance of $1.000$, establishing zero-bias baseline inputs.
 """))
@@ -408,7 +408,7 @@ df_encoded['Feature11_Exceeds_Threshold'] = (df_encoded['Feature11'] > f11_thres
 print(f"\\nDerived Feature11_Exceeds_Threshold: Flagged 1 if Feature11 > {f11_threshold} ({df_encoded['Feature11_Exceeds_Threshold'].sum():,} flagged)")"""))
 
 # Markdown: Analyst Notes for Part 5
-cells.append(nbf.v4.new_markdown_cell("""> **Senior Analyst Takeaway (Encoding & Dimensionality):**  
+cells.append(nbf.v4.new_markdown_cell("""> **Analyst Key Takeaway (Encoding & Dimensionality):**  
 > 1. **Binary & Ordinal Integrity**: Preserved hierarchical monotonic order in `Feature19` (`Low` < `Medium` < `High`) without inflating dimensional space.
 > 2. **Dummy Trap Prevention**: Setting `drop_first=True` eliminated collinear baseline categories for `Feature12`, `Feature14`, and `Feature15`, ensuring the design matrix $X^TX$ remains invertible and full rank for regression models.
 """))
@@ -515,7 +515,7 @@ print("\\n✓ CERTIFIED READY: Feature matrix is 100% numeric, finite, non-null,
 
 # Markdown: Executive Recommendations & Roadmap
 cells.append(nbf.v4.new_markdown_cell("""---
-## 🎯 Senior Analyst Strategic Recommendations & Production Deployment
+## 🎯 Strategic Recommendations & Production Deployment
 
 ```mermaid
 flowchart LR
